@@ -1,5 +1,5 @@
 # grupo-8
-este es el del grupo 8
+repositorio del grupo-8
 
 Integrantes:
 - Sánchez Cáceres, Danuska Brunela	
