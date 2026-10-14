@@ -6,4 +6,4 @@ Integrantes:
 - Meneses Miguel, Melany Margot	
 - Diaz Barbosa, Francisco Roberto	
 - Bustamante Bustamante, Alex Kelvin 
-- Ana Vargas
+- Ana Vargas, desde el local para el remoto
