@@ -24,7 +24,7 @@ El diseño del sistema se basa en 3 clases principales interconectadas mediante 
 | - genero          |        | - resolucion      |        | - plan_activo      |
 +-------------------+        +-------------------+        | - mi_lista         |
 | + mostrar_info()  |        | + mostrar_plan()  |        +--------------------+
-+-------------------+        | + obtener_precio()|        | + contratar_plan() |                                                 +-------------------+        | + agregar_a_lista()|
++-------------------+        | + obtener_precio()|        | + contratar_plan() |                                                +-------------------+        | + agregar_a_lista()|
                                                           | + ver_mi_lista()   |
                                                           +--------------------+
 ---
