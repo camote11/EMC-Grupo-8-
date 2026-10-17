@@ -20,7 +20,7 @@ class Contenido:
 
     def get_tipo(self):
         return self.__tipo
-
+#Falta el contenido 
     def mostrar_info(self):
         return (f"{self.__titulo} ({self.__año}) - "
             f"{self.__tipo} - {self.__genero} - "
