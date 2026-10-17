@@ -16,17 +16,19 @@ El sistema simula la gestión interna de la plataforma de streaming **Disney+**.
 El diseño del sistema se basa en 3 clases principales interconectadas mediante relaciones de asociación y composición:
 
 ```text
-+-------------------+        +-------------------+        +--------------------+
-|     Contenido     |        | PlanSuscripcion   |        |      Usuario       |
-+-------------------+        +-------------------+        +--------------------+
-| - titulo          |        | - nombre_plan     |        | - nombre           |
-| - duracion_min    |        | - precio_mensual  |        | - email            |
-| - genero          |        | - resolucion      |        | - plan_activo      |
-+-------------------+        +-------------------+        | - mi_lista         |
-| + mostrar_info()  |        | + mostrar_plan()  |        +--------------------+
-+-------------------+        | + obtener_precio()|        | + contratar_plan() |                                                +-------------------+        | + agregar_a_lista()|
-                                                          | + ver_mi_lista()   |
-                                                          +--------------------+
+```text
++-------------------+        +-------------------+        +-------------------+
+|     Contenido     |        | PlanSuscripcion   |        |      Usuario      |
++-------------------+        +-------------------+        +-------------------+
+| - titulo          |        | - nombre_plan     |        | - nombre          |
+| - duracion_min    |        | - precio_mensual  |        | - email           |
+| - genero          |        | - resolucion      |        | - plan_activo     |
++-------------------+        +-------------------+        | - mi_lista        |
+| + mostrar_info()  |        | + mostrar_plan()  |        +-------------------+
++-------------------+        | + obtener_precio()|        | + contratar_plan()|
+                             +-------------------+        | + agregar_a_lista()|
+                                                          | + ver_mi_lista()  |
+                                                          +-------------------+
 ---
 
 ## 3. Descripción de Clases, Atributos y Métodos
